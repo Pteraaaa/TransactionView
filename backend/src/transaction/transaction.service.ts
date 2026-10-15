@@ -18,7 +18,11 @@ export class TransactionService {
   }
 
   async findAll() {
-    return await this.prismaService.transaction.findMany();
+    return await this.prismaService.transaction.findMany({
+      orderBy:{
+        transactionDate: 'desc'
+      }
+    });
   }
 
   async update(id: number, updateTransactionDto: UpdateTransactionDto) {
