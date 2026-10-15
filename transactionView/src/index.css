@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  user-select: none;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links h5{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.transaction-table{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.table{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insert-form{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-segment{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input-segment h5{
+  padding-right: 10px;
+}
