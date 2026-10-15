@@ -83,7 +83,7 @@ function EditTransaction(){
                     </label>
 
                     <button>
-                        Submit
+                        Edit
                     </button>
 
                 </form>

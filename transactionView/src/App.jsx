@@ -1,11 +1,8 @@
-import { useState } from 'react'
 import './index.css'
 import Navbar from './components/Navbar'
 import TransactionTable from './components/TransactionTable'
 
 function App() {
-  const [transaction, setTransaction] = useState([]);
-
   const handleSeed = () => {
     fetch('http://localhost:3000/transaction/seed', {
       method: "POST",
